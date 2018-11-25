@@ -62,7 +62,7 @@ scale $box_scale [0.5,0.5,2]
 box name:"box_rotation" wirecolor:(color 255 255 0) pos:[100,0,0]
 rotate $box_rotation (eulerangles 0 15 45)
 ```
-*Maxscript file example:* [1_basic_transformations](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos)
+*Maxscript file example:* [1_basic_transformations](https://github.com/daliife/IntroMaxScript/blob/master/IntroductionExamples/1_basic_transformations.ms)
 
 ## 2. Loops and iterations
 ```maxscript
@@ -92,7 +92,7 @@ for item in $objects do(
 	)
 )
 ```
-*Maxscript file example:* [2_loops_and_iterations](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos)
+*Maxscript file example:* [2_loops_and_iterations](https://github.com/daliife/IntroMaxScript/blob/master/IntroductionExamples/2_loops_and_iterations.ms)
 
 ## 3. Functions
 ```maxscript
@@ -127,7 +127,7 @@ function createChildren childAmount depth = (
 -- Function being called
 createChildren 2 0
 ```
-*Maxscript file example:*  [3_functions](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos)
+*Maxscript file example:*  [3_functions](https://github.com/daliife/IntroMaxScript/blob/master/IntroductionExamples/3_functions.ms)
 
 ## 4. User Interface Widgets
 ```maxscript
@@ -170,7 +170,7 @@ rollout ReplaceObjectsWidget "Replacing Objects Widget" width:397 height:124
 -- Widget creation
 createDialog ReplaceObjectsWidget
 ```
-*Maxscript file example 1:* [4_user_interface_widgets_1](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos)
+*Maxscript file example 1:* [4_user_interface_widgets_1](https://github.com/daliife/IntroMaxScript/blob/master/IntroductionExamples/4_user_interface_widgets_1.ms)
 ```maxscript
 -- Information text
 t = TextPlus Plane:0 name:"User interface widgets 2" size:14 pos:[0,-150,0] wirecolor:(color 255 255 255)
@@ -224,7 +224,7 @@ rollout ShapeCreationPanel "Shape Creation Panel" width:200 height:124
 -- Widget creation
 createDialog ShapeCreationPanel
 ```
-*Maxscript file example 2:* [4_user_interface_widgets_2](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos)
+*Maxscript file example 2:* [4_user_interface_widgets_2](https://github.com/daliife/IntroMaxScript/blob/master/IntroductionExamples/4_user_interface_widgets_2.ms)
 
 ## 5. Animations
 ```maxscript
@@ -249,7 +249,7 @@ do at time t(
 	sequential_box.position = sequential_box.position + [5,0,0]
 )
 ```
-*Maxscript file example:* [5_animations](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos)
+*Maxscript file example:* [5_animations](https://github.com/daliife/IntroMaxScript/blob/master/IntroductionExamples/5_animations.ms)
 
 ## 6. Splines
 ```maxscript
@@ -285,7 +285,7 @@ for i = 0 to density do (
 	local amount = random 0 4
 )
 ```
-*Maxscript file example:* [6_splines](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos)
+*Maxscript file example:* [6_splines](https://github.com/daliife/IntroMaxScript/blob/master/IntroductionExamples/6_splines.ms)
 
 ## 7. Ray intersections
 ```maxscript
@@ -338,7 +338,7 @@ rollout RaytracerWidget "Raytracer Widget tool" width:245 height:106
 -- Widget creation
 createDialog RaytracerWidget
 ```
-*Maxscript file example:* [7_ray_intersections](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos)
+*Maxscript file example:* [7_ray_intersections](https://github.com/daliife/IntroMaxScript/blob/master/IntroductionExamples/7_ray_intersections.ms)
 
 ## 8. Macros
 ```maxscript
@@ -379,4 +379,4 @@ theAction = menuMan.createActionItem "LaunchMenu" "MVD" --create an ActionItem f
 theMenu.addItem theAction (theMenu.numItems()+1) --add the ActionItem to the menu
 menuMan.updateMenuBar() --update the menu bar
 ```
-*Maxscript file example:* [8_macros](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos)
+*Maxscript file example:* [8_macros](https://github.com/daliife/IntroMaxScript/blob/master/IntroductionExamples/8_macros.ms)
